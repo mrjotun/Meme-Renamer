@@ -1,5 +1,52 @@
 Hey faggs
 This is the license file and yadda yadda yadda like i give a shit about the license of this small program, it's not like i have the resources to do anything about it anyways.
 
+FYI:
+I'm not a python coder. This code was written like a stream of conciousness with google being used for codesnippets.
+If you are an experienced coder and wonder "why did he do it like that? He should have done it like this" it's because i found "that" on google or by fucking around and i don't know that "this" exists
+
+Software:
+You need Python. Find it yourself and install it.
+I recommend VSCode on Windows to run the scripts for no other reason that it will piss of Linux fanboys 8)
+
+Explanation:
+There are two files that do almost the same task.
+renameWithMetadata.py renames the files based on what the metadata says it is.
+This usually applies to files downloaded from 4chan.
+
+cleanAndRename.py cleans up messy filenames using regex.
+"A+new+monolith+has+appeared+184102+8116933.webm" would be renamed to "A new monolith has appeared 184102 8116933.webm"
+This usually applies to files downloaded from torrentsites and Funnyjunk.
+
 Usage:
-To rename files only based on metadata
+download the exe file from https://exiftool.org/ 
+put it in the same folder as the python files and give it the name "exiftool.exe". This file is used to read the metadata.
+
+Both files use the same syntax.
+-i for the folder with the files to be renamed. IMPORTANT!! the slashes has to be forward-slash(/) because else it fucks up the arguments. for why read the FYI section again.
+-t for the filetype to be looked for.
+
+make sure your cmd or terminal is in the folder the files are in when you start them.
+to start renaming files using metadata it will look like this: python .\cleanandrename.py -f "C:/Reactions/webm/clean name/" -t "mp4"
+This will read all the mp4 files and give them the name thats in the metadata.
+
+thank you for reading heres a fox i stole
+
+                                                                   ,-,
+                                                             _.-=;~ /_
+                                                          _-~   '     ;.
+                                                      _.-~     '   .-~-~`-._
+                                                _.--~~:.             --.____88
+                              ____.........--~~~. .' .  .        _..-------~~
+                     _..--~~~~               .' .'             ,'
+                 _.-~                        .       .     ` ,'
+               .'                                    :.    ./
+             .:     ,/          `                   ::.   ,'
+           .:'     ,(            ;.                ::. ,-'
+          .'     ./'.`.     . . /:::._______.... _/:.o/
+         /     ./'. . .)  . _.,'               `88;?88|
+       ,'  . .,/'._,-~ /_.o8P'                  88P ?8b
+    _,'' . .,/',-~    d888P'                    88'  88|
+ _.'~  . .,:oP'        ?88b              _..--- 88.--'8b.--..__
+:     ...' 88o __,------.88o ...__..._.=~- .    `~~   `~~      ~-._ Seal _.
+`.;;;:='    ~~            ~~~                ~-    -       -   -
